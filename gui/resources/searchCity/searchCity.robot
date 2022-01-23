@@ -16,7 +16,7 @@ searchCityName
     click element   ${moreDetails}
 
     ${temprature}    Get Text    ${temprature}
-    Create File  guiTemp    .txt  ${temprature}
+    Create File  guiTemp.txt  ${temprature}
 
 
 
